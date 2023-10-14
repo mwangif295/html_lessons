@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./download.png);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.login-container {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid blue;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+}
+.forgot{
+    text-align: left;
+    color: black;
+}
+.remember{
+    text-align: left;
+    color: black;
+
+}
+button:hover {
+    background-color: green;
+}
